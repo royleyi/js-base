@@ -16,6 +16,10 @@ console.log(person[input]);
 console.log(person.laptop.brand.length);
 console.log(person.laptop.brand1?.length);
 
+for(let key in person){
+    console.log(key, person[key]);
+}
+
 delete person.age;
 console.log(person);
 
